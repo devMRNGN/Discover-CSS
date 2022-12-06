@@ -1,0 +1,47 @@
+/*Ex1 pseudo class, selecionando primeiro filho 
+ul li:first-child{
+    font-weight: bold;
+    color:red;
+}
+*/
+/* nth-of-type: pega o elemento por tipo e posição
+ol li:nth-of-type(3){
+    color: green;
+}
+*/
+/* nth-child: quando queremos selecionar o primeiro filho de um determinado elemento 
+ol li:nth-child(3){
+    color:blue;
+}
+*/
+/* nth-child odd: pares and even: impares 
+ol li:nth-child(even){
+    background-color: gray;
+}
+ol li:nth-child(odd){
+    background-color:blue;
+}
+*/
+/* Interações com o usuario, :hover > muda algo quando o usuario passar mouse me cima */
+a:hover{
+    color: red;
+}
+input:focus{
+    border-color: red;
+    outline: none;
+}
+input:disabled{
+    background-color: green;
+}
+input:required{
+    background-color: blueviolet;
+}
+li::after{
+    content: ""
+}
+li::before{
+    content: ""
+}
+li::first-line{
+    color: red;
+}

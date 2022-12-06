@@ -1,0 +1,10 @@
+.container{
+    display: flex;
+    border: red dashed 1px;
+    flex-direction: row;
+}
+  
+.item{
+    border: black solid 1px;
+    flex-basis: 100px; /* Altera o tamanho dos itens do container no eixo principal, se for row altera largura, se for column altera a altura */
+}

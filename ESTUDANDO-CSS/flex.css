@@ -1,0 +1,12 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    border: 1px solid red;
+  }
+  
+.item{
+    background-color: gray;
+    border: 1px solid black;
+    flex: 1; /* Faz com que ocupem todo o espaço da box (container)*/
+}

@@ -1,0 +1,17 @@
+.container{
+    display: flex;
+    border: red dashed 1px;
+    flex-direction: row;
+    width: 250px;
+}
+  
+.item{
+    border: black solid 1px;
+    flex-basis: 100%;
+}
+  
+.container div:nth-child(2),
+.container div:nth-child(3){
+    flex-shrink: 2; /* Os itens irão encolher para dar espaço aos outros itens */
+}
+  

@@ -1,0 +1,30 @@
+body{
+    margin: 10;
+    box-sizing: border-box;
+}
+
+.page{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+}
+
+.button{
+    display: flex;
+    justify-content: space-around;
+    width: 9%;
+    padding: 5px;
+    background-color: lightcoral;
+    color: blue;
+    border-radius: 6px;
+    border:royalblue solid 1px;
+}
+
+.button:hover{
+    border: black solid 1px;
+}
+
+header button:nth-child(1){
+    width: 11%;
+}

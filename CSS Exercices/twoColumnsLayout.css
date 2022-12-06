@@ -1,0 +1,17 @@
+.page{
+    height: 600px;
+    width: 60%;
+    border: dashed 1px red;
+    display: flex;
+    gap: 1rem;
+  }
+  
+  aside{
+    background-color: lightgreen;
+    flex: 25%;
+  }
+  
+  main{
+    background-color: pink;
+    flex: 75%;
+  }

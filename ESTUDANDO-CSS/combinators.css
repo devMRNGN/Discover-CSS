@@ -1,0 +1,25 @@
+/* Buscando dentro do body um article e dentro do article um h2 */
+body article h2 {
+    color: blue;
+}
+/* Child combinator: sinal de > entre dois elementos
+Sendo pego o filho direto do body "ul" e pegando filho direto do "ul" o filho direto "li" */
+body > ul > li {
+    color:red;
+}
+/* adjacent sibling combinator, sempre o do lado direito que é irmão direto na hierarquia
+utiliza sinal + entre as tags */
+h1 + p {
+    color: red;
+}
+button + button {
+    margin-left: 32px;
+}
+/* General sibling combinator: seleciona todos os irmãos que estiverem ao lado sinal: ~ */
+h1 ~ p {
+    color:blueviolet;
+}
+/* Combined combinators */
+ul > li[class="red"]{
+    color: purple;
+}

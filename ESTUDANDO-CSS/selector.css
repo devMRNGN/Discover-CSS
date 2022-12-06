@@ -1,0 +1,36 @@
+/* Element selector 
+h1 {
+    color:red;
+}
+p {
+    color:blue;
+}
+*/
+/* Id selector
+#title{
+    color: yellowgreen;
+}
+#content{
+    color: blue;
+}
+*/
+/* Class selector 
+.red{
+    color:aqua;
+}
+*/
+/* Atributte selector 
+[title] {
+    background-color: brown;
+    color: green;
+}
+*/
+/* Pseudoclass selector (important)
+h1:hover {
+    color:blue;
+}
+*/
+/* Multiple selector */
+h1:hover, p:hover{
+    color:blueviolet;
+}

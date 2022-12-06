@@ -1,0 +1,10 @@
+.container{
+    display: flex;
+    border: 1px red dashed;
+    width: 200px;
+    gap: 40px; /* Coloca um espaço entre os itens do container */
+  }
+  
+  .item{
+    border: 1px solid black;
+  }
